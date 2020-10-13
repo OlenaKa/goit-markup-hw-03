@@ -1,0 +1,159 @@
+:root {
+    --primary-text-color: #757575;
+    --footer-address-color: rgba(255, 255, 255, 0.6);
+    --secondary-color: #212121;
+    --accent-color:  #2196F3;
+    --footer-address-color: rgba(255, 255, 255, 0.6);
+    --bg-secondary-color: #2F303A; 
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo{
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logostudio {
+    color: #000000; 
+}
+
+footer .logostudio {
+    color: #FFFFFF;
+}
+
+
+.site-nav .link {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.header-address .link { 
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.header-address .link:hover,
+.header-address .link:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.main-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+}
+.main-section {
+    background-color: var(--bg-secondary-color);
+}
+.order-button {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88px;
+    text-decoration: none;
+    background: var(--accent-color);
+}
+
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--secondary-color);
+}
+
+.advantage-title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.advantage-title .text {
+    font-size: 14px;
+    line-height: 1.71px;
+}
+
+.footer-address .link {
+    color: var(--footer-address-color);
+    text-decoration: none;
+}
+
+.photo-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    color: var(--secondary-color);
+}
+
+.position-title {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.project-link{
+    text-decoration: none;
+}
+.project-title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-color);
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--primary-text-color);
+}
+
+footer {
+    background-color: var(--bg-secondary-color);
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+address {
+    font-style: inherit;
+}
