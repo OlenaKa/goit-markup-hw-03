@@ -196,19 +196,24 @@ footer .logostudio {
   margin-right: 0;
 }
 
-.container.team {
+.section-team {
+  background-color: #f5f4fa;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .team-members {
   display: flex;
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
   padding: 0;
 }
 
 .team-member {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+
+  background-color: #ffffff;
 }
 
 .team-member:nth-child(4n) {
