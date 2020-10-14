@@ -229,6 +229,57 @@ footer .logostudio {
   text-align: center;
 }
 
+/* Portfolio */
+
+.portfolio-buttons {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.portfolio-button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-button button {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  border: 1px solid #f5f4fa;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.portfolio-button button:hover,
+.portfolio-button button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 94px;
+}
+
+.project {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.project:nth-child(3n) {
+  margin-right: 0;
+}
+
 .project-link {
   text-decoration: none;
 }
@@ -239,12 +290,16 @@ footer .logostudio {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .project-type {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 footer {
