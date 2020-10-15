@@ -360,6 +360,10 @@ footer {
   margin-bottom: 9px;
 }
 
+.footer-address.list {
+  padding-left: 0;
+}
+
 .footer-address .link {
   color: var(--footer-address-color);
   text-decoration: none;
