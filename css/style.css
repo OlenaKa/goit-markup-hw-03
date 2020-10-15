@@ -356,6 +356,10 @@ footer {
   font-style: normal;
 }
 
+.addressline: :not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-address .link {
   color: var(--footer-address-color);
   text-decoration: none;
