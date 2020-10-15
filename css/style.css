@@ -356,12 +356,14 @@ footer {
   font-style: normal;
 }
 
-.addressline: :not(:last-child) {
+.address-line:not(:last-child) {
   margin-bottom: 9px;
 }
 
 .footer-address.list {
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer-address .link {
