@@ -145,6 +145,10 @@ footer .logostudio {
   color: var(--secondary-color);
 }
 
+.advantages-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .advantages {
   display: flex;
   padding: 0;
@@ -153,8 +157,6 @@ footer .logostudio {
 .advantage-item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
-  margin-top: 94px;
-  margin-bottom: 94px;
   min-height: 101;
 }
 
@@ -183,10 +185,13 @@ footer .logostudio {
 .activities {
   display: flex;
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   padding: 0;
 }
 
+.activities-section {
+  padding-bottom: 94px;
+}
 .activity-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
@@ -236,11 +241,16 @@ footer .logostudio {
 
 /* Portfolio */
 
+.portfolio-mainsection {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio-buttons {
   display: flex;
   padding-left: 0;
   justify-content: center;
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
@@ -273,7 +283,7 @@ footer .logostudio {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin-bottom: 94px;
+  margin: 0;
 }
 
 .project {
