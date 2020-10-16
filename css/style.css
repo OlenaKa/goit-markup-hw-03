@@ -273,8 +273,7 @@ footer .logostudio {
 }
 
 .portfolio-button button {
-  width: 128px;
-  height: 38px;
+  padding: 6px 22px;
   left: 576px;
   top: 174px;
   border: 1px solid #f5f4fa;
